@@ -19,5 +19,4 @@ form.addEventListener('submit', (event) => {
         alert("Usuário ou senha incorreto, tente novamente")
     }
 
-
 })
