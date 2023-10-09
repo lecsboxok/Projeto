@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     font-family: 'Yusei', sans-serif;
 }
 
@@ -32,9 +33,12 @@ body {
 }
 
 .login {
+    background: transparent;
     margin-top: 170px;
+    border: 2px solid rgba(255, 255, 255, .2);
     fill: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     padding: 60px 55px;
     border-radius: 10px;
 }
