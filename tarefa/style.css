@@ -4,3 +4,65 @@
     border: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Yusei';
+    src: url(/fonts/YuseiMagic-Regular.ttf);
+}
+
+body {
+    background: rgb(1,64,64);
+    background: linear-gradient(90deg, rgba(1,64,64,1) 0%, rgba(62,140,132,1) 50%, rgba(143,191,186,1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font: 700 35px 'Yusei', sans-serif;
+}
+
+.form {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #000D08;
+    font: 700 18px 'Yusei', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#input {
+    font: 700 16px 'Yusei', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+span {
+    font: 700 18px 'Yusei', sans-serif;
+}
+
+li {
+    width: 500px;
+    background-color: rgba(186, 232, 242, .4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    fill: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
